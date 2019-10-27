@@ -1,0 +1,16 @@
+This folder contains all the data needed to reproduce Figures 7 and S8. For Figure S8, data files are labelled *_stats.dat where * indicates the number of TPCV and whether the TRA was used. These files are in column format.
+
+The following are columns of interest:
+Column # Quantitity
+1        time
+2        avg T
+3        v RMS
+4        top Nu
+5        bottom Nu
+11       avg C
+12       entrainment for z>0.2
+13       # of tracer-free CVs
+14       min TPCV
+15       max TPCV
+
+For Figure 7, mass errors were found using the avg C value from the *_stats.dat files described above. The energy errors are given in the energy_error.dat file. The energy error data for all 6 models in the plot are contained in a single file, with two blank lines separating the different models. The order of energy_error.dat from first to last lines in the file is: 10TPCV, 30TPCV, 60 TPCV, 10TPCV_TRA, 30TPCV_TRA, and 60TPCV_TRA.

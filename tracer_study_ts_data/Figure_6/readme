@@ -1,0 +1,16 @@
+This folder contains all the data needed to reproduce Figure 6. Time series data files are labelled *_stats.dat where * indicates the number of TPCV, the nz value and whether the TRA was used. These files are in column format.
+
+The following are columns of interest:
+Column # Quantitity
+1        time
+2        avg T
+3        v RMS
+4        top Nu
+5        bottom Nu
+11       avg C
+12       entrainment for z>0.2
+13       # of tracer-free CVs
+14       min TPCV
+15       max TPCV
+
+Mass errors were found using the avg C value from the *_stats.dat files described above. The energy errors are given in the *_energy_error.dat files, where * indicates the number of TPCV, the nz value and whether the TRA was used. In those files column 1 is time and column 2 is the energy error. 

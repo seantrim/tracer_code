@@ -1,0 +1,12 @@
+This folder contains all the data needed to reproduce Figure S2. Time series data files are labelled *_stats.dat where * indicates the number of TPCV and whether the TRA was used. These files are in column format.
+
+The following are columns of interest:
+Column # Quantitity
+1        time
+2        v RMS
+5        # of tracer-free CVs
+6        min TPCV
+7        max TPCV
+8        avg C
+9        entrainment for z>0.2
+
